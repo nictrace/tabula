@@ -1,0 +1,20 @@
+{
+  "name": "socket.io-tabula",
+  "version": "0.0.1",
+  "description": "Websocket server&client using socket.io",
+  "main": "index.js",
+  "author": "Rgusev",
+  "private": true,
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auth0/node-jsonwebtoken"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "node-jsonwebtoken": "https://github.com/auth0/node-jsonwebtoken.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
