@@ -8,10 +8,10 @@
   "license": "BSD",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nictrace/tabula"
+    "url": "https://github.com/auth0/node-jsonwebtoken"
   },
   "dependencies": {
-    "socket-io": "1.7.2",
+    "socket.io": "1.7.2",
     "express": "4.13.4",
     "node-jsonwebtoken": "https://github.com/auth0/node-jsonwebtoken.git"
   },
