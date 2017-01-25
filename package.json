@@ -1,6 +1,6 @@
 {
   "name": "socket.io-tabula",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Websocket server&client using socket.io",
   "main": "index.js",
   "author": "Rgusev",
@@ -11,6 +11,7 @@
     "url": "https://github.com/auth0/node-jsonwebtoken"
   },
   "dependencies": {
+    "socket-io": "1.7.2",
     "express": "4.13.4",
     "node-jsonwebtoken": "https://github.com/auth0/node-jsonwebtoken.git"
   },

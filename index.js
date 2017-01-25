@@ -3,7 +3,7 @@ var express = require('express');
 var jwt = require('jsonwebtoken');
 var app = express();
 var server = require('http').createServer(app);
-var io = require('../..')(server);
+var io = require('socket.io')(server);
 var util = require('util');
 
 var port = process.env.PORT || 50000;
