@@ -1,6 +1,6 @@
 {
   "name": "socket.io-tabula",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Websocket server&client using socket.io",
   "main": "index.js",
   "author": "Rgusev",
