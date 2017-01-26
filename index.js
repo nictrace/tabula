@@ -1,17 +1,17 @@
 // Setup basic express server
-var express = require('express');
 var jwt = require('jsonwebtoken');
-var app = express();
-var server = require('http').createServer(app);
+var app = require("http");
+var port = 8082;
+var server = app.createServer().listen(port, process.env.IP);
 var io = require('socket.io')(server);
 var util = require('util');
+var express = require('express');
 
-var port = process.env.PORT || 50000;
 var secret = 'E38A794745DB11459AC4565C6C417';
-var room;													// комната для общения
+
 
 server.listen(port, function () {
-  console.log('Server listening at port %d', port);
+  console.log('Socket listening at port %d', port);
 });
 
 // Routing
